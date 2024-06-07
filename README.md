@@ -38,7 +38,7 @@ To use the plugin:
    - Restart Unreal Engine if prompted.
 3. Open your Unreal Engine project.
 4. Drag and drop the BP_AudioSpline Blueprint from the Content Browser into your scene. (AudioSplinePlugin Content->Blueprints->BP_AudioSpline)
-5. Select the BP_AudioSplineActor in your scene.
+5. Select the BP_AudioSpline in your scene.
 6. Use the Spline Component to add, remove, and adjust spline points to define the desired path.
 
 -----------------------------------------------------------------------
