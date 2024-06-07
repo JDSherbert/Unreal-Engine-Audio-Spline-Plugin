@@ -32,10 +32,10 @@ The spline itself is implemented in C++, but I've provided a Blueprint that inhe
 To use the plugin:
 1. Copy the AudioSplinePlugin folder into your Unreal Engine project's Plugins directory.
 2. Enable the plugin in your project:
-   a. Open your Unreal Engine project.
-   b. Go to Edit > Plugins.
-   c. Find the AudioSplineActor plugin in the list and enable it.
-   d. Restart Unreal Engine if prompted.
+   - Open your Unreal Engine project.
+   - Go to Edit > Plugins.
+   - Find the AudioSplineActor plugin in the list and enable it.
+   - Restart Unreal Engine if prompted.
 3. Open your Unreal Engine project.
 4. Drag and drop the BP_AudioSpline Blueprint from the Content Browser into your scene. (AudioSplinePlugin Content->Blueprints->BP_AudioSpline)
 5. Select the BP_AudioSplineActor in your scene.
