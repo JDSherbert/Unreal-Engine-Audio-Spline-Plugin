@@ -1,4 +1,4 @@
-![image]()
+![image](https://github.com/JDSherbert/Unreal-Engine-Audio-Spline-Plugin/assets/43964243/ad4e1765-6fe1-4a4e-b7e8-5a91047916d0)
 
 # Unreal Engine Audio Spline Plugin
 
@@ -24,8 +24,9 @@
 
 -----------------------------------------------------------------------
 ## Overview
-Some words about the project here-
+After getting tired of needing to remake these for pretty much every Unreal project I work on, here's a repository that provides an out-of-the-box solution for developers to create and manage AudioSplines in Unreal Engine. AudioSplines enable precise and dynamic audio spatialization by positioning and moving audio sources along predefined spline/bezier paths. This enhances the realism and immersion of the game environment as we can have the Audio Component position itself to the nearest player position, while staying within our own defined constraints (say a race track, river, or cliff edge).
 
+The spline itself is implemented in C++, but I've provided a Blueprint that inherits the C++ class for easier customizability as required.
 
 -----------------------------------------------------------------------
 
