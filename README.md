@@ -1,6 +1,6 @@
 ![image]()
 
-# Unreal Engine Audio Spline PLugin
+# Unreal Engine Audio Spline Plugin
 
 <!-- Header Start -->
 <a href = "https://docs.unrealengine.com/5.3/en-US/"> <img height="40" img width="40" src="https://cdn.simpleicons.org/unrealengine/white"> </a> 
