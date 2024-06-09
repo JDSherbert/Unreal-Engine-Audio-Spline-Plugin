@@ -34,7 +34,7 @@ To use the plugin:
 2. Enable the plugin in your project:
    - Open your Unreal Engine project.
    - Go to Edit > Plugins.
-   - Find the AudioSplineActor plugin in the list and enable it.
+   - Find the AudioSplinePlugin in the list and enable it.
    - Restart Unreal Engine if prompted.
 3. Open your Unreal Engine project.
 4. Drag and drop the BP_AudioSpline Blueprint from the Content Browser into your scene. (AudioSplinePlugin Content->Blueprints->BP_AudioSpline)
