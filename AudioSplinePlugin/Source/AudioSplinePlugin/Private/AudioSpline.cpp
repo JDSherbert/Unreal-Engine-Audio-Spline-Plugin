@@ -1,4 +1,4 @@
-// ©2024 JDSherbert. All rights reserved.
+// Â©2024 JDSherbert. All rights reserved.
 
 #include "AudioSpline.h"
 
@@ -10,6 +10,7 @@ AAudioSpline::AAudioSpline()
 {
 	RootComponent = SplineComponent;
 	AudioComponent->SetupAttachment(RootComponent);
+	PrimaryActorTick.bCanEverTick = true;
 }
 
 /* ------------------------------------------------------------ */
