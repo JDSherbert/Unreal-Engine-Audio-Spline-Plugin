@@ -19,8 +19,8 @@ void AAudioSpline::UpdateSpline() const
 {
     if (SplineComponent != nullptr && Target != nullptr)
     {
-		const float Distance = SplineComponent->FindInputKeyClosestToWorldLocation(Target->GetActorLocation());
-		const FVector SplineLocation = SplineComponent->GetLocationAtDistanceAlongSpline(Distance, ESplineCoordinateSpace::World);
+		const float InputKey = SplineComponent->FindInputKeyClosestToWorldLocation(Target->GetActorLocation());
+		const FVector SplineLocation = SplineComponent->GetLocationAtSplineInputKey(InputKey, ESplineCoordinateSpace::World);
 		AudioComponent->SetWorldLocation(SplineLocation);
 	}
 }
